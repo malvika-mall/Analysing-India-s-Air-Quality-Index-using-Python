@@ -39,9 +39,18 @@ Cities which had underwent the most drastic improvement in Air Quality:
 
 Major components of Air Pollution in India:
 ![corr](https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/Correlation%20Matrix.png?raw=true)
-
 We see that BTX has the lowest correlation with AQI- which is perfectly in sync with the AQI calculation formula. The air quality index is composed of 8 pollutants ((PM10, PM2.5, NO2, SO2, CO, O3, and NH3), but does not directly account for BTX.
 
+## Time Series Analysis & Forecasting:
+```
+# Decompose the time series using an additive model
+decomposition = sm.tsa.seasonal_decompose(cities['India_AQI'], model='additive')
+from pylab import rcParams # This will define a fixed size for all special charts.
+rcParams['figure.figsize'] = 18, 7
+# Plot the separate components
+decomposition.plot()
+plt.show()
+```
 
 
 
