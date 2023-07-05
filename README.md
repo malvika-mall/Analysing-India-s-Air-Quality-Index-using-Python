@@ -1,2 +1,3 @@
 # Analysing-India's-Air-Quality-Index-using-Python
-![Logo](https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/images.jpg)
+![Logo](https://images.indianexpress.com/2018/11/air-pollution-759.jpg)
+
