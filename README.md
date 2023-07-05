@@ -32,10 +32,15 @@ Open-source data set from Kaggle. Downlad dataset from below link:
 ## Exploratory Analysis:
 Analysing the impact of COVID-19 induced lockdown on AQI:
 To start off, we will be picking out some cities from the most polluted ones(as inferred above) and try to visualize how their AQI changed in 2020 as compared to 2019.
-![Top 10 Most Polluted Cities of India] (https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/Catplot%2010%20Most%20Polluted%20City%20%26%20AQI.png)
+![Top 10 Most Polluted Cities of India](https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/Catplot%2010%20Most%20Polluted%20City%20%26%20AQI.png)
 
 Cities which had underwent the most drastic improvement in Air Quality:
 ![bar](https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/Covid%20impact.jpg)
+
+Major components of Air Pollution in India:
+![corr](https://github.com/malvika-mall/Analysing-India-s-Air-Quality-Index-using-Python/blob/main/04%20Analysis/Visualizations/Correlation%20Matrix.png?raw=true)
+
+We see that BTX has the lowest correlation with AQI- which is perfectly in sync with the AQI calculation formula. The air quality index is composed of 8 pollutants ((PM10, PM2.5, NO2, SO2, CO, O3, and NH3), but does not directly account for BTX.
 
 
 
